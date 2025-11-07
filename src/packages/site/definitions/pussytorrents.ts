@@ -308,6 +308,11 @@ export const siteMetadata: ISiteMetadata = {
       },
     },
   },
+  
+  noLoginAssert: {
+    matchSelectors: ["script:contains('take2fa.php?returnto=')"],
+  },
+
 };
 
 export default class PussyTorrents extends PrivateSite {
